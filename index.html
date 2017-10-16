@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+            <title>Optegra Landing Page</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="style.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,800" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                <img src="images/OptegraLogoMobile.jpg" alt="Logo Optegra">
+            </div>
+            
+            <section class="section header__banner">
+                <div class="section__content">
+                   
+                    <div class="header__banner--left">
+                        <h1 class="header__title text--white">
+                             pozbądź się wady wzroku w 24 sekundy!
+                        </h1>
+                        
+                        <span class="line line--white"></span>
+                        
+                        <p class="header__banner--left__par text--white">
+                            Sprawdź <strong>najnowsze możliwości laserowej korekcji</strong> wzroku w największej sieci klinik okulistycznych w Polsce.
+                        </p>
+                    </div>
+                    
+                    <div class="header__banner--right">
+                        <p class="header__banner--right__par bright">
+                            <span class="text--light">korekcja wzroku</span><br>
+                            już od 
+                            <span class="text--bold">999zł*</span>
+                        </p>
+                        <small class="header__banner--right__small text--white">
+                        *Metodą Lasek - cena dla jednego oka
+                        </small>
+                    </div>
+                </div>
+                
+                <form class="form" action="action_page.php" method="post">
+                    
+                    <h3 class="form__title text--bright">
+                        Pobierz promocyjny <strong>voucher na wizytę</strong><br>
+                        w wybranej klinice.
+                    </h3>
+                    
+                    <span class="line line--dark line--center"></span>
+                    
+                    <p class="form__par text--bright">
+                         Zabieg <strong>7299zł</strong> zamiast <strong>9600zł</strong>.
+                    </p>
+                    
+                    <input class="form__input" type="email" name="email" placeholder="E-mail" required>
+                    
+                    <div class="form__info">   
+                        <div id="checkboxOne" class="form__info__checkbox">
+                            <div class="form__info__checkbox__check"></div>
+                            <input class="form__info__checkbox__input" type="checkbox" name="agreement" required>
+                        </div>    
+                        <p class="form__info__par">
+                            <small>
+                                Wyrażam dobrowolnie zgodę na przetwarzanie danych osobowych zawartych w niniejszym formularzu przez Optegra Polska Sp. z o.o. z siedzibą w Warszawie (Administrator danych), a także na ich przetwarzanie w celach marketingowych, w tym wysyłanie materiałów promocyjno-informacyjnych, oferowani produktów i usług, zgodnie z Ustawą o ochronie danych osobowych. Zostałem poinformowany o przysługującym mi prawie dostępu do treści przekazanych danych oraz prawie ich poprawiania oraz odwołania zgody lub złożenia sprzeciwu wobec udostępniania danych.
+                            </small>
+                        </p>
+                        
+                    </div>
+                    
+                    <input type="submit" class="form__btn btn btn--bright" value="pobierz voucher">
+                </form>
+            </section>
+        </header>
+        <section class="waveImageTop"></section>
+        <section class="section section--one">
+            <div class="section__overlay">
+               <div class="section__content">
+               
+                    <div class="section__icon--notepad">
+                         <img src="images/Notepad.jpg" alt="">
+                    </div>
+                    
+                    <h2 class="section__title">
+                        Mam voucher,<br>i co dalej?
+                    </h2>
+                    
+                    <div class="section--one__info">
+                        
+                        <div class="section--one__info__number number--one">1</div>
+                         
+                        <img class="section--one__info__icon icon--calendar" src="images/calendar.jpg" alt="">
+                        
+                        <h4 class="section--one__title text--blue">
+                            Potwierdzasz wizytę
+                        </h4>
+                        
+                        <span class="line line--grey"></span>
+                        
+                        <p class="section--one__info__par">
+                        Umawiasz się na wizytę konsultacyjną w wybranej przez Ciebie klinice dzwoniąc pod numer <b>222 466 122</b>.
+                    </p>
+                    </div>
+                    
+                    <div class="section--one__info">
+                        <div class="section--one__info__number">2</div>
+                        
+                        <img class="section--one__info__icon icon--doctor" src="images/doctor.jpg" alt="">
+                        
+                        <h4 class="section--one__title text--blue">
+                             Lekarz pomoże
+                        </h4>
+                        
+                        <span class="line line--grey"></span>
+                        
+                        <p class="section--one__info__par">
+                            Podczas kwalifikacji lekarz zdecyduje, który zabieg korekcji wzroku <b>będzie dla Ciebie optymalny</b>. Uzyskasz wszystkie informacje.
+                    </p>
+                    </div>
+                    
+                    <div class="section--one__info">
+                       
+                        <div class="section--one__info__number">3</div>
+                       
+                        <img class="section--one__info__icon icon--eye" src="images/eye.jpg" alt="">
+                        
+                        <h4 class="section--one__title text--blue">
+                            Zabieg
+                        </h4>
+                        
+                        <span class="line line--grey"></span>
+                        
+                        <p class="section--one__info__par">
+                            Po potwierdzeniu terminu zabiegu jesteś już na ostatniej prostej do odzyskania sprawności widzenia. Sam <b>zabieg trwa kilkadziesiąt sekund</b>, ale będziemy więcej czasu, aby przygotować Cię do zabiegu.
+                        </p>
+                    </div>
+                    
+                    <div class="section__icon--lightbulb">
+                         <img src="images/light.jpg" alt="">
+                    </div>
+                    
+                    <div class="section--one__links">
+                      
+                       <p class="section--one__links__par text--blue">
+                            Na każdym etapie możesz korzystać zarówno z infolinii, systemu rezerwacji online oraz recepcji w celu ustalenia poszczególnych terminów.
+                       </p>
+                       
+                        <a class="btn btn--big btn--bright" href="#">
+                            umów się online
+                        </a>
+                        <a class="btn  btn--big btn--bright" href="#">
+                            zadzwoń
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="section__icon--medal">
+                         <img src="images/medal.png" alt="">
+                    </div>
+                    
+                    <h2 class="section__title">
+                        Najwyższe<br>standardy
+                    </h2>
+                    
+                    <div class="section--one__info2">
+                     
+                      <div class="section--one__info2__title">
+                           <h4 class="section--one__title text--blue">
+                               Przewaga dzięki wiedzy i technologii
+                           </h4>
+                           <div class="icon--arrow__wrapper">
+                               <div id="sectionOneArrowOne" class="icon--arrow arrow--up"></div>
+                           </div>
+                      </div>
+                      <div id="sectionOneInfoOne" class="section--one__info2__content">
+                           <p class="section--one__info2__par">
+                               Optegra to międzynarodowa sieć klinik działająca w całej Europie. Pracujemy na najnowocześniejszym sprzęcie na świecie. Lekarze wykonujący zabiegi to najlepsi specjaliści na rynku. Jesteś w dobrych rękach.
+                           </p>
+                           <a class="btn btn--small btn--blue" href="#">Więcej</a>
+                      </div> 
+                    </div>
+                    
+                     <div class="section--one__info2">
+                     
+                      <div class="section--one__info2__title">
+                           <h4 class="section--one__title text--blue">
+                               Rozumiemy naszych pacjentów w mgnieniu oka
+                           </h4>
+                           <div class="icon--arrow__wrapper">
+                               <div id="sectionOneArrowTwo" class="icon--arrow arrow--up"></div>
+                           </div>
+                      </div>
+                      <div id="sectionOneInfoTwo" class="section--one__info2__content">
+                           <p class="section--one__info2__par">
+                               Wiemy, że możesz mieć pytania, dlatego jesteśmy dla Ciebie. Nasz personel będzie służył Ci pomocą na każdym etapie. Nie musisz się o nic martwić.
+                           </p>
+                           <a class="btn btn--small btn--blue" href="#">Więcej</a>
+                      </div> 
+                    </div>
+               </div> 
+            </div>
+        </section>
+        <section class="waveImageBottom"></section>
+        <section class="section section--two">
+            <div class="section__content">
+                
+                 <div class="section__icon--medicine">
+                         <img src="images/medicine.png" alt="">
+                 </div>
+                 
+                 <h2 class="section__title text--white">
+                      Najlepsi lekarze
+                 </h2>
+                 
+                 <span class="line line--white"></span>
+                
+                 <h4 class="section--two__title text--white">
+                     Jesteśmy <strong>liderem korekcji wad</strong> wzroku w Polsce. Od lat współpracujemy z najlepszymi lekarzami chirurgami.
+                 </h4>
+                 
+                 <div class="slider">
+                    <div id="prev--doctor" class="icon--arrow icon--arrow--white arrow--left"></div>
+                    <div id="next--doctor" class="icon--arrow icon--arrow--white arrow--right"></div>  
+                    <div class="slider__box">
+                        <div class="slider__image">
+                            <img src="images/KatarzynaSkoniecznaSmall.png" alt="">
+                        </div>  
+                        <p class="slider__par text--white">
+                                dr n.med. <br>
+                                <strong>Katarzyna Skonieczna</strong>
+                        </p>
+                            
+                        <span class="line slider__box__line line--white"></span>
+                        
+                        <p class="slider__par text--white">
+                            <small>lekarz okulista,<br>
+                             operacje zaćmy</small>
+                        </p>
+                        
+                        <a class="btn btn--small btn--white btn--center" href="#">Więcej</a>
+                    </div>         
+                    <div class="slider__box slide--doctor">
+                        <div class="slider__image">
+                            <img src="images/Doctor1Small.jpg" alt="">
+                        </div>  
+                        <p class="slider__par text--white">
+                                dr n.med. <br>
+                                <strong>Joanna Sempińska-Szewczyk</strong>
+                        </p>
+                            
+                        <span class="line slider__box__line line--white"></span>
+                        
+                        <p class="slider__par text--white">
+                            <small>lekarz okulista,<br>
+                             operacje zaćmy</small>
+                        </p>
+                        
+                        <a class="btn btn--small btn--white btn--center" href="#">Więcej</a>
+                     </div> 
+                     <div class="slider__box slide--doctor">
+                        <div class="slider__image">
+                            <img src="images/Doctor2Small.jpg" alt="">
+                        </div>  
+                        <p class="slider__par text--white">
+                                lek. <br>
+                                <strong>Marcin Smorawski</strong>
+                        </p>
+                            
+                        <span class="line slider__box__line line--white"></span>
+                        
+                        <p class="slider__par text--white">
+                            <small>lekarz okulista,<br>
+                             laserowa korekcja wzroku/stożek rogówki</small>
+                        </p>
+                        
+                        <a class="btn btn--small btn--white btn--center" href="#">Więcej</a>
+                     </div> 
+                     <div class="slider__box slide--doctor">
+                        <div class="slider__image">
+                            <img src="images/Doctor3Small.jpg" alt="">
+                        </div>  
+                        <p class="slider__par text--white">
+                                lek. <br>
+                                <strong>Magdalena Bielak</strong>
+                        </p>
+                            
+                        <span class="line slider__box__line line--white"></span>
+                        
+                        <p class="slider__par text--white">
+                            <small>lekarz okulista,<br>
+                             laserowa korekcja wzroku</small>
+                        </p>
+                        
+                        <a class="btn btn--small btn--white btn--center" href="#">Więcej</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="section section--three">
+            <div class="section--three__overlay">
+              <div class="section__content">
+                
+                <div class="section__icon--discount">
+                         <img src="images/promo.png" alt="">
+                </div>
+                
+                <h2 class="section__title">
+                       Ceny zabiegów w promocji
+                </h2>
+                
+                <span class="line line--dark"></span>
+                
+                 <p class="section--three__par">
+                       Są to promocyjne ceny poszczególnych zabiegów okulistycznych w przypadku <strong>posiadania vouchera zniżkowego</strong>.
+                 </p>
+                
+                 <div class="slider">
+                     <div id="prev--offer" class="icon--arrow arrow--left--dark icon--arrow--dark"></div>
+                     <div id="next--offer" class="icon--arrow arrow--right--dark icon--arrow--dark"></div>
+                     <div class="slider__boxes">
+                       <div class="slider__box--offer slider__box--offer--visible">
+                         <div class="name">
+                             <h5>
+                                 Lentivu
+                             </h5>
+                             <p class="name__par">
+                             dla pary oczu
+                             </p>
+                         </div>
+                         
+                         <div class="price">
+                             <p class="price__par">
+                                 7299<span class="currency">zł</span>
+                             </p>
+                         </div>
+                       </div>
+                      <div class="slider__box--offer">
+                         <div class="name">
+                             <h5>
+                                 Femto
+                             </h5>
+                             <p class="name__par">
+                             dla pary oczu
+                             </p>
+                         </div>
+                         
+                         <div class="price">
+                             <p class="price__par">
+                                 6199<span class="currency">zł</span>
+                             </p>
+                         </div>
+                       </div>
+                       <div class="slider__box--offer">
+                         <div class="name">
+                             <h5>
+                                 Lasek
+                             </h5>
+                             <p class="name__par">
+                             dla pary oczu
+                             </p>
+                         </div>
+                         
+                         <div class="price">
+                             <p class="price__par">
+                                 2998<span class="currency">zł</span>
+                             </p>
+                         </div>
+                      </div>
+                      <div class="slider__box--offer">
+                         <div class="name">
+                             <h5>
+                                 Lasek
+                             </h5>
+                             <p class="name__par">
+                             dla jednego oka
+                             </p>
+                         </div>
+                         
+                         <div class="price">
+                             <p class="price__par">
+                                 999<span class="currency">zł</span>
+                             </p>
+                         </div>
+                      </div>
+                      <div class="slider__box--offer">
+                         <div class="name">
+                             <h5>
+                                 EBK
+                             </h5>
+                             <p class="name__par">
+                             dla pary oczu
+                             </p>
+                         </div>
+                         
+                         <div class="price">
+                             <p class="price__par">
+                                 5399<span class="currency">zł</span>
+                             </p>
+                         </div>
+                     </div>
+                     </div> 
+                  </div>
+                  
+                  <div class="section__icon--patients">
+                      <img src="images/clients.png" alt="">
+                  </div>
+                  
+                  <h2 class="section__title">
+                       Opinie naszych klientów
+                       
+                       <div class="section--three__quotes">&rdquo;</div>
+                  
+                       <span class="line line--dark"></span>
+                  
+                       <p class="section--three__par">
+                           Dowiedz się co <strong>mówią o nas nasi klienci</strong>.
+                       </p>
+                  </h2>
+                  <div class="slider__patients">
+                         <div id="prev--patient" class="icon--arrow arrow--left--dark icon--arrow--dark"></div>
+                         <div id="next--patient" class="icon--arrow arrow--right--dark icon--arrow--dark"></div>
+                         <div class="slider__patients__box slider__patients__box--visible">
+                            <div class="slider__patients__wrapper">
+                                 <div class="slider__patients__image">
+                                     <img src="images/woman.jpg" alt="">
+                                 </div>
+                                 <div class="slider__patients__par">
+                                     <p>
+                                        <b>Agnieszka Kaczmarek</b><br>
+                                        opinia FB
+                                     </p>
+                                 </div>
+                             </div>
+                             <div class="slider__patients__opinion">
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <p class="slider__patients__opinion__intro">
+                                     Jestem zachwycona
+                                 </p>
+                                 <div class="line line--grey"></div>
+                                 <p class="slider__patients__opinion__text">
+                                     Naprawdę wszystko się zmieniło. Jestem zachwycona opieką w klinice Optegra. Od samego początku doskonale się mną zaopiekowano. Najważniejsze jednak jest to, że rzeczywiście zabieg trwał dosłownie chwilę.
+                                 </p>
+                             </div>
+                           </div>
+                           <div class="slider__patients__box">
+                             <div class="slider__patients__wrapper">
+                                 <div class="slider__patients__image">
+                                     <img src="images/MZawadzka.png" alt="">
+                                 </div>
+                                 <div class="slider__patients__par">
+                                     <p>
+                                        <b>Magdalena Zawadzka</b><br>
+                                        aktorka
+                                     </p>
+                                 </div>
+                             </div>
+                             <div class="slider__patients__opinion">
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <p class="slider__patients__opinion__intro">
+                                     Jestem zachwycona
+                                 </p>
+                                 <div class="line line--grey"></div>
+                                 <p class="slider__patients__opinion__text">
+                                     Jestem zachwycona opieką okulistyczną w klinice OPTEGRA. Wszystko funkcjonuje w niej perfekcyjnie. Począwszy od umawiania wizyt.
+                                 </p>
+                              </div>
+                            </div>
+                            <div class="slider__patients__box">
+                              <div class="slider__patients__wrapper">
+                                 <div class="slider__patients__image">
+                                     <img src="images/man.jpg" alt="">
+                                 </div>
+                                 <div class="slider__patients__par">
+                                     <p>
+                                        <b>Krystian Lurko</b><br>
+                                        opinia z forum
+                                     </p>
+                                 </div>
+                              </div>
+                              <div class="slider__patients__opinion">
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <span class="star"></span>
+                                 <p class="slider__patients__opinion__intro">
+                                     Przede wszystkim - to bezpieczne
+                                 </p>
+                                 <div class="line line--grey"></div>
+                                 <p class="slider__patients__opinion__text">
+                                     Wzrok jest dla mnie najważniejszym zmysłem z uwagi na rodzaj pracy, który wykonuję. Po zabiegu nie tylko wreszcie lepiej widzę, ale przede wszystkim wada już mnie nie ogranicza w codziennych czynnościach.
+                                 </p>
+                              </div>
+                           </div>
+                     </div>
+              </div>
+            </div>
+        </section>
+         <section class="waveImageBottom"></section>
+        <section class="section section--four">
+             <div class="section__content">
+                   <div class="section__icon--scissors">
+                         <img src="images/scissors.png" alt="">
+                   </div>
+                   <h2 class="section__title text--white">
+                      Skorzystaj<br> z promocyjnej zniżki!
+                   </h2>
+             </div>   
+             <form class="form section--four__form" action="action_page.php" method="post">
+                    
+                    <h3 class="form__title text--bright">
+                        Pobierz promocyjny <strong>voucher na wizytę</strong><br>
+                        w wybranej klinice.
+                    </h3>
+                    
+                    <span class="line line--dark line--center"></span>
+                    
+                    <p class="form__par text--bright">
+                         Zabieg <strong>7299zł</strong> zamiast <strong>9600zł</strong>.
+                    </p>
+                    
+                    <input class="form__input" type="email" name="email" placeholder="E-mail" required>
+                    <input class="form__input" type="text" name="first-name" placeholder="Imię" required>
+                    <input class="form__input" type="text" name="second-name" placeholder="Nazwisko" required>
+
+                    <div class="form__info">
+                        
+                        <div id="checkboxTwo" class="form__info__checkbox">
+                            <div class="form__info__checkbox__check"></div>
+                            <input class="form__info__checkbox__input" type="checkbox" name="agreement" required>
+                        </div>
+                         <p class="form__info__par">
+                            <small>
+                                Wyrażam dobrowolnie zgodę na przetwarzanie danych osobowych zawartych w niniejszym formularzu przez Optegra Polska Sp. z o.o. z siedzibą w Warszawie (Administrator danych), a także na ich przetwarzanie w celach marketingowych, w tym wysyłanie materiałów promocyjno-informacyjnych, oferowani produktów i usług, zgodnie z Ustawą o ochronie danych osobowych. Zostałem poinformowany o przysługującym mi prawie dostępu do treści przekazanych danych oraz prawie ich poprawiania oraz odwołania zgody lub złożenia sprzeciwu wobec udostępniania danych.
+                            </small>
+                        </p>
+                        
+                    </div>
+                    <input type="submit" class="form__btn btn btn--bright" value="pobierz voucher">
+            </form>
+        </section>
+        <footer class="footer">
+                <div class="footer__svg__container">
+                    <div class="svg__row">
+                        <div class="logo0"></div>
+                        <div class="logo logo1">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                        <div class="logo logo1">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                    </div>
+                    <div class="svg__row">
+                        <div class="logo logo2">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                        <div class="logo logo3">
+                            <svg><rect x="0" y="0" width="100" height="100" fill="rgb(255,255,255)"/></svg>
+                        </div>
+                        <div class="logo logo4">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                    </div>
+                    <div class="svg__row">
+                        <div class="logo logo2">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                        <div class="logo logo3">
+                            <svg><circle cx="0" cy="0" r="100" /></svg>
+                        </div>
+                    </div>
+                </div>
+            <div class="footer__logo">
+                <img src="images/OptegraLOGO.jpg" alt="">
+            </div>
+            
+            <div class="footer__icon">
+                 <a href="https://web.facebook.com/Optegra.korekcja.wzroku/" target="_blank">
+                    <img src="images/FBicon.png" alt="Link do Facebooka" title="Facebook">
+                 </a>
+            </div>
+            
+            <p class="footer__info">
+                 <b>Kliniki Okulistyczne Optegra</b><br>
+                 Warszawa, Kraków, Poznań, Szczecin, Wrocław.
+            </p>
+            
+            <span class="footer__line line line--grey"></span>
+            
+            <p class="footer__info">
+                 kontakt@optegra.com.pl<br>
+                 infolinia:
+                 <span class="text--blue">
+                   <b>22 466 111  www.optegra.com.pl</b>
+                 </span>
+            </p>
+            
+             <ul class="footer__list">
+                 <li class="footer__list__item">
+                     <a class="footer__list__link" href="#">Polityka prywatności</a>
+                 </li>     
+                 <li class="footer__list__item">
+                     <a  class="footer__list__link" href="#">Regulamin</a>
+                 </li>    
+                 <li class="footer__list__item">
+                    <a class="footer__list__link" href="#">Cookies</a>
+                 </li>
+            </ul>
+          </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
