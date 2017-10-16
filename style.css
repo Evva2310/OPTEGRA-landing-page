@@ -357,7 +357,7 @@ section {
 }
 /*SECTION  ONE*/
 .section--one {
-    height: 1670px;
+    height: 1700px;
     margin-top: -70px;
     background-image: url("images/bg_eyetest.png");
     background-size: 3150px;
@@ -695,7 +695,7 @@ section {
 }
 /*SECTION  THREE*/
 .section--three {
-    height: 1080px;
+    height: 1100px;
     background-image: url("images/bg_eye.png");
     background-size: 1300px;
     background-repeat: no-repeat;
