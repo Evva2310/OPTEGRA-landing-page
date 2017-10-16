@@ -82,7 +82,6 @@ document.getElementById("prev--doctor").onclick = showPrevDoctor;
 
 function showNextDoctor(){
     
-        
         for(i=0;i<slides.length;i++){
             slides[i].style.display = "none";
         }
@@ -132,7 +131,6 @@ function showNextOffer(){
 }
 function showPrevOffer(){
     
-        
         for(i=0;i<slidesOffer.length;i++){
             slidesOffer[i].style.display = "none";
         }
@@ -168,7 +166,6 @@ function showNextPatient(){
 }
 function showPrevPatient(){
     
-        
         for(i=0;i<slidesPatients.length;i++){
             slidesPatients[i].style.display = "none";
         }
