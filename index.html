@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pl">
     <head>
-            <title>Optegra Landing Page</title>
+            <title>Optegra Kliniki Okulistyczne-Pozbądź się wady wzroku w 24 sekundy!</title>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="style.css" rel="stylesheet">
+            <link href="media_styles.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,800" rel="stylesheet">
     </head>
     <body>
@@ -26,6 +27,14 @@
                         <p class="header__banner--left__par text--white">
                             Sprawdź <strong>najnowsze możliwości laserowej korekcji</strong> wzroku w największej sieci klinik okulistycznych w Polsce.
                         </p>
+                         <p class="header__banner--left__par--bright bright">
+                            <span class="text--light">korekcja wzroku</span><br>
+                            już od 
+                            <span class="text--bold">999zł*</span>
+                        </p>
+                        <small class="header__banner--left__small text--white">
+                        *Metodą Lasek - cena dla jednego oka
+                        </small>
                     </div>
                     
                     <div class="header__banner--right">
@@ -40,7 +49,7 @@
                     </div>
                 </div>
                 
-                <form class="form" action="action_page.php" method="post">
+                <form class="form header__form" action="action_page.php" method="post">
                     
                     <h3 class="form__title text--bright">
                         Pobierz promocyjny <strong>voucher na wizytę</strong><br>
@@ -227,7 +236,7 @@
                         </div>  
                         <p class="slider__par text--white">
                                 dr n.med. <br>
-                                <strong>Katarzyna Skonieczna</strong>
+                                <b>Katarzyna Skonieczna</b>
                         </p>
                             
                         <span class="line slider__box__line line--white"></span>
@@ -245,7 +254,7 @@
                         </div>  
                         <p class="slider__par text--white">
                                 dr n.med. <br>
-                                <strong>Joanna Sempińska-Szewczyk</strong>
+                                <b>Joanna Sempińska-Szewczyk</b>
                         </p>
                             
                         <span class="line slider__box__line line--white"></span>
@@ -263,7 +272,7 @@
                         </div>  
                         <p class="slider__par text--white">
                                 lek. <br>
-                                <strong>Marcin Smorawski</strong>
+                                <b>Marcin Smorawski</b>
                         </p>
                             
                         <span class="line slider__box__line line--white"></span>
@@ -281,7 +290,7 @@
                         </div>  
                         <p class="slider__par text--white">
                                 lek. <br>
-                                <strong>Magdalena Bielak</strong>
+                                <b>Magdalena Bielak</b>
                         </p>
                             
                         <span class="line slider__box__line line--white"></span>
@@ -413,7 +422,7 @@
                        <span class="line line--dark"></span>
                   
                        <p class="section--three__par">
-                           Dowiedz się co <strong>mówią o nas nasi klienci</strong>.
+                           Dowiedz się co <b>mówią o nas nasi klienci</b>.
                        </p>
                   </h2>
                   <div class="slider__patients">
@@ -439,9 +448,11 @@
                                      Jestem zachwycona
                                  </p>
                                  <div class="line line--grey"></div>
-                                 <p class="slider__patients__opinion__text">
+                                 <blockquote>
+                                    <p class="slider__patients__opinion__text">
                                      Naprawdę wszystko się zmieniło. Jestem zachwycona opieką w klinice Optegra. Od samego początku doskonale się mną zaopiekowano. Najważniejsze jednak jest to, że rzeczywiście zabieg trwał dosłownie chwilę.
-                                 </p>
+                                    </p>
+                                 </blockquote>    
                              </div>
                            </div>
                            <div class="slider__patients__box">
@@ -464,9 +475,11 @@
                                      Jestem zachwycona
                                  </p>
                                  <div class="line line--grey"></div>
-                                 <p class="slider__patients__opinion__text">
+                                 <blockquote>
+                                   <p class="slider__patients__opinion__text">
                                      Jestem zachwycona opieką okulistyczną w klinice OPTEGRA. Wszystko funkcjonuje w niej perfekcyjnie. Począwszy od umawiania wizyt.
-                                 </p>
+                                   </p>
+                                 </blockquote>   
                               </div>
                             </div>
                             <div class="slider__patients__box">
@@ -489,9 +502,11 @@
                                      Przede wszystkim - to bezpieczne
                                  </p>
                                  <div class="line line--grey"></div>
-                                 <p class="slider__patients__opinion__text">
+                                 <blockquote>
+                                    <p class="slider__patients__opinion__text">
                                      Wzrok jest dla mnie najważniejszym zmysłem z uwagi na rodzaj pracy, który wykonuję. Po zabiegu nie tylko wreszcie lepiej widzę, ale przede wszystkim wada już mnie nie ogranicza w codziennych czynnościach.
-                                 </p>
+                                    </p>
+                                 </blockquote>
                               </div>
                            </div>
                      </div>
@@ -590,14 +605,14 @@
             <span class="footer__line line line--grey"></span>
             
             <p class="footer__info">
-                 kontakt@optegra.com.pl<br>
-                 infolinia:
-                 <span class="text--blue">
-                   <b>22 466 111  www.optegra.com.pl</b>
-                 </span>
+                    kontakt@optegra.com.pl<br>
+                    infolinia:
+                    <span class="text--blue">
+                      <b>22 466 111  www.optegra.com.pl</b>
+                    </span>
             </p>
-            
-             <ul class="footer__list">
+            <button class="footer__btn btn btn--blue">Umówienie wizyty online</button>
+            <ul class="footer__list">
                  <li class="footer__list__item">
                      <a class="footer__list__link" href="#">Polityka prywatności</a>
                  </li>     

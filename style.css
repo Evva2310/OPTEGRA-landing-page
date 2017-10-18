@@ -239,7 +239,9 @@ section {
     font-weight: 300;
     font-size: 13px;
 }
-
+.header__banner--left__par--bright, .header__banner--left__small  {
+    display: none;
+}
 .header__banner--right {
     width: 40%;
     float: right;
@@ -1004,6 +1006,10 @@ section {
 
 .footer__line {
     margin: 5px auto;
+}
+
+.footer__btn {
+    display: none;
 }
 
 .footer__list {
