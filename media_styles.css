@@ -6,9 +6,9 @@
         background-image: url("images/bgLightSmall.png"),url("images/bgDarkSmall.png");
         background-size: 1400px, 1400px;
         background-repeat: no-repeat, no-repeat;
-        background-position: -200px -430px, -200px -250px;
+        background-position: -200px -430px, -200px -240px;
         padding-top: 40px;
-        height: 520px;
+        height: 580px;
     }
     .header__logo {
         display: none;
@@ -19,7 +19,7 @@
         margin: 0 auto;
         background-image: url("images/girl.png");
         background-size: 450px;
-        background-position: 200px 50px;
+        background-position: 200px 65px;
         
     }
     .header__banner--left {
@@ -63,15 +63,117 @@
     .form {
         width: 42%;
         position: absolute;
-        right: 0;
-        top: 0;
+        right: -40px;
+        top: -50px;
+        border: none;
+        border-radius: 0;
+        padding-bottom: 0;
+        outline: 12px solid rgba(255,255,255,0.7);
     }
-    
-    
-    
-    
-    
-    
+    .form__logo {
+        display: block;
+        width: 65%;
+        margin: 0 50px 25px auto;
+    }
+    .form__title {
+        color: rgb(38,50,56);
+        font-size: 14px;
+    }
+    .form__par {
+        font-size: 13px;
+        margin-top: -5px;
+    }
+    .form__input {
+        border: 1.5px solid rgb(31,213,188);
+        padding: 9px 25px;
+        font-size: 10px;
+    }
+    .form__info {
+        width: 90%;
+    }
+    .form__info__par {
+        font-size: 7px;
+         line-height: 1.3em;
+        text-align: justify;
+        float: left;
+    }
+    .form__info__checkbox {
+        width: 10px;
+        height: 10px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .form__info__checkbox__input {
+        width: 20px;
+        float: left;
+        margin-top: 3px;
+    }
+    .form__btn {
+        padding: 9px;
+        font-size: 9px;
+        letter-spacing: 0.2em;
+        width: 90%;
+        margin: -10px auto 20px auto;
+    }
+    .waveImageTop {
+        display: none;
+    }
+    .section--one .section__content {
+        width: 60%;
+        position: relative;
+        text-align: center;
+    }
+    .wave {
+        display: block;
+        width: 320px;
+        height: 50px;
+        background-color: rgb(255,255,255);
+        border-radius: 80% 80% 0 0;
+        position: absolute;
+        right: 70px;
+        bottom: 16px;
+        transform: rotate(2deg);
+    }
+    .section__icon--notepad {
+        width: 35px;
+        margin: 0 auto 20px auto;
+    }
+    .section__icon--lightbulb {
+        width: 30px;
+        margin: 10px auto;
+    }
+    .section--one {
+        background-size: 120%;
+        background-position: -170px -80px;
+    }
+    .section--one__info {
+        width: 30%;
+        float: left;
+        text-align: left;
+        margin-right: 5%;
+    }
+    .section--one__info.info--last {
+        margin-right: 0;
+    }
+    .icon--calendar {
+        margin-top: 17px;
+    }
+    .icon--eye {
+        margin-top: 13px;
+    }
+    .section--one__info__par {
+        font-size: 10px;
+    }
+    .section--one__links__par {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+    .section--one__links .btn {
+        width: 200px;
+        display: inline-block;
+        font-size: 11px;
+        margin: 0 10px;
+    }
     
     
     
